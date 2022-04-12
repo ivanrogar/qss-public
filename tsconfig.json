@@ -1,0 +1,39 @@
+{
+    "compilerOptions": {
+        "target": "esnext",
+        "module": "commonjs",
+        "noImplicitAny": false,
+        "removeComments": true,
+        "preserveConstEnums": true,
+        "sourceMap": true,
+        "resolveJsonModule": true,
+        "suppressImplicitAnyIndexErrors": true,
+        "baseUrl": ".\/",
+        "rootDir": ".",
+        "paths": {
+            "App\/*": [
+                "assets\/*"
+            ],
+        },
+        "types": [
+            "reflect-metadata",
+            "node"
+        ],
+        "typeRoots": [
+            ".\/node_modules\/@types"
+        ],
+        "moduleResolution": "node",
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true,
+        "lib": [
+            "es5",
+            "es6",
+            "dom"
+        ],
+        "esModuleInterop": true
+    },
+    "exclude": [
+        "node_modules",
+        "**\/*.spec.ts"
+    ]
+}
